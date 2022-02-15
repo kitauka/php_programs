@@ -19,13 +19,37 @@
 <html>
       <head>
           <title>Kitauka</title>
+          <link rel="stylesheet" href="design.css">
+      
       </head>
-      <body>
-           <form action="#" method="post" >
-                  Name : <input autocomplete="off" placeholder="Give a name" type="text" value="" id="name" name="name" /> <br>
-                  DOB : <input type="date" value="" id="date" name="date" /> <br>
-                  Height : <input required="true" type="number" value="" id="height" name="height" /> <br>
-                  <input type="submit" name="save" id="save">
+      <body >
+          
+           <form  action="#" method="post" class="myform" >
+ <u><i><b style ="text-transform:uppercase"><center>Registration form</center></b></i></u>
+                <table style="width:100%">
+                      <tbody>
+                            <tr>
+                                 <td> Name :</td>
+                                 <td><input autocomplete="off" placeholder="Give a name" type="text" value="" id="name" name="name" /> </td>
+                            </tr>
+
+                            <tr>
+                                 <td>DOB :</td>
+                                 <td><input type="date" value="" id="date" name="date" /></td>
+                            </tr>
+
+                            <tr>
+                                 <td> Height : </td>
+                                 <td><input required="true" type="number" value="" id="height" name="height" /></td>
+                            </tr>
+
+                            <tr>
+                                 <td colspan="2"><center><input type="submit" name="save" id="save"></center></td>
+                         
+                            </tr>
+                      </tbody>
+                </table>
+                   
            </form>
       </body>
 </html>
